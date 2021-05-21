@@ -2,7 +2,7 @@ describe("paginate should", () => {
  
     beforeEach(() => {
        var parser = new DOMParser();
-       let str = __html__['testyt.html'];
+       let str = __html__['ytSimulator.html'];
        var doc = parser.parseFromString(str, 'text/html');
        document.body.innerHTML = doc.body.innerHTML;
     });
