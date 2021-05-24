@@ -1,6 +1,6 @@
 //displayResults iterates through the 15 search results and 
 //appends the results based on the page the user is currently in
-var displayResults = async (searchResults, page) => {
+var displayResults = (searchResults, page) => {
     searchResults = searchResults.slice(page * 4, page * 4 + 4);
     for (let result of searchResults) {
         createAndAppendSearchResult(result);
